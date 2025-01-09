@@ -260,6 +260,8 @@ export default {
       gameRound.value = 0;
       isGameOver.value = false;
       logMessages.value = [];
+      isSpecialAttack = ref(true);
+      isMedikit = ref(true);
       iWin.value = null;
     }
     function confirmName() {
